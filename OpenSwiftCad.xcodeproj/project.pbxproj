@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B405C011AB1C52A00B270DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B405C001AB1C52A00B270DA /* AppDelegate.swift */; };
+		6B405C031AB1C52A00B270DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B405C021AB1C52A00B270DA /* Images.xcassets */; };
+		6B405C061AB1C52A00B270DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B405C041AB1C52A00B270DA /* MainMenu.xib */; };
+		6B405C121AB1C52B00B270DA /* OpenSwiftCadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B405C111AB1C52B00B270DA /* OpenSwiftCadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B405C0C1AB1C52B00B270DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B405BF31AB1C52A00B270DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B405BFA1AB1C52A00B270DA;
+			remoteInfo = OpenSwiftCad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B405BFB1AB1C52A00B270DA /* OpenSwiftCad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSwiftCad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B405BFF1AB1C52A00B270DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B405C001AB1C52A00B270DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B405C021AB1C52A00B270DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B405C051AB1C52A00B270DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6B405C0B1AB1C52B00B270DA /* OpenSwiftCadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSwiftCadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B405C101AB1C52B00B270DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B405C111AB1C52B00B270DA /* OpenSwiftCadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSwiftCadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B405BF81AB1C52A00B270DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B405C081AB1C52B00B270DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B405BF21AB1C52A00B270DA = {
+			isa = PBXGroup;
+			children = (
+				6B405BFD1AB1C52A00B270DA /* OpenSwiftCad */,
+				6B405C0E1AB1C52B00B270DA /* OpenSwiftCadTests */,
+				6B405BFC1AB1C52A00B270DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B405BFC1AB1C52A00B270DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B405BFB1AB1C52A00B270DA /* OpenSwiftCad.app */,
+				6B405C0B1AB1C52B00B270DA /* OpenSwiftCadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B405BFD1AB1C52A00B270DA /* OpenSwiftCad */ = {
+			isa = PBXGroup;
+			children = (
+				6B405C001AB1C52A00B270DA /* AppDelegate.swift */,
+				6B405C021AB1C52A00B270DA /* Images.xcassets */,
+				6B405C041AB1C52A00B270DA /* MainMenu.xib */,
+				6B405BFE1AB1C52A00B270DA /* Supporting Files */,
+			);
+			path = OpenSwiftCad;
+			sourceTree = "<group>";
+		};
+		6B405BFE1AB1C52A00B270DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B405BFF1AB1C52A00B270DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B405C0E1AB1C52B00B270DA /* OpenSwiftCadTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B405C111AB1C52B00B270DA /* OpenSwiftCadTests.swift */,
+				6B405C0F1AB1C52B00B270DA /* Supporting Files */,
+			);
+			path = OpenSwiftCadTests;
+			sourceTree = "<group>";
+		};
+		6B405C0F1AB1C52B00B270DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B405C101AB1C52B00B270DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B405BFA1AB1C52A00B270DA /* OpenSwiftCad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B405C151AB1C52B00B270DA /* Build configuration list for PBXNativeTarget "OpenSwiftCad" */;
+			buildPhases = (
+				6B405BF71AB1C52A00B270DA /* Sources */,
+				6B405BF81AB1C52A00B270DA /* Frameworks */,
+				6B405BF91AB1C52A00B270DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSwiftCad;
+			productName = OpenSwiftCad;
+			productReference = 6B405BFB1AB1C52A00B270DA /* OpenSwiftCad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B405C0A1AB1C52B00B270DA /* OpenSwiftCadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B405C181AB1C52B00B270DA /* Build configuration list for PBXNativeTarget "OpenSwiftCadTests" */;
+			buildPhases = (
+				6B405C071AB1C52B00B270DA /* Sources */,
+				6B405C081AB1C52B00B270DA /* Frameworks */,
+				6B405C091AB1C52B00B270DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B405C0D1AB1C52B00B270DA /* PBXTargetDependency */,
+			);
+			name = OpenSwiftCadTests;
+			productName = OpenSwiftCadTests;
+			productReference = 6B405C0B1AB1C52B00B270DA /* OpenSwiftCadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B405BF31AB1C52A00B270DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Stefan Buchholtz";
+				TargetAttributes = {
+					6B405BFA1AB1C52A00B270DA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6B405C0A1AB1C52B00B270DA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6B405BFA1AB1C52A00B270DA;
+					};
+				};
+			};
+			buildConfigurationList = 6B405BF61AB1C52A00B270DA /* Build configuration list for PBXProject "OpenSwiftCad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B405BF21AB1C52A00B270DA;
+			productRefGroup = 6B405BFC1AB1C52A00B270DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B405BFA1AB1C52A00B270DA /* OpenSwiftCad */,
+				6B405C0A1AB1C52B00B270DA /* OpenSwiftCadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B405BF91AB1C52A00B270DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B405C031AB1C52A00B270DA /* Images.xcassets in Resources */,
+				6B405C061AB1C52A00B270DA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B405C091AB1C52B00B270DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B405BF71AB1C52A00B270DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B405C011AB1C52A00B270DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B405C071AB1C52B00B270DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B405C121AB1C52B00B270DA /* OpenSwiftCadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B405C0D1AB1C52B00B270DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B405BFA1AB1C52A00B270DA /* OpenSwiftCad */;
+			targetProxy = 6B405C0C1AB1C52B00B270DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B405C041AB1C52A00B270DA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B405C051AB1C52A00B270DA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B405C131AB1C52B00B270DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B405C141AB1C52B00B270DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B405C161AB1C52B00B270DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenSwiftCad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B405C171AB1C52B00B270DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenSwiftCad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B405C191AB1C52B00B270DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenSwiftCadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSwiftCad.app/Contents/MacOS/OpenSwiftCad";
+			};
+			name = Debug;
+		};
+		6B405C1A1AB1C52B00B270DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenSwiftCadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSwiftCad.app/Contents/MacOS/OpenSwiftCad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B405BF61AB1C52A00B270DA /* Build configuration list for PBXProject "OpenSwiftCad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B405C131AB1C52B00B270DA /* Debug */,
+				6B405C141AB1C52B00B270DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B405C151AB1C52B00B270DA /* Build configuration list for PBXNativeTarget "OpenSwiftCad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B405C161AB1C52B00B270DA /* Debug */,
+				6B405C171AB1C52B00B270DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B405C181AB1C52B00B270DA /* Build configuration list for PBXNativeTarget "OpenSwiftCadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B405C191AB1C52B00B270DA /* Debug */,
+				6B405C1A1AB1C52B00B270DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B405BF31AB1C52A00B270DA /* Project object */;
+}
