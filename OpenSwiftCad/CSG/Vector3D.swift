@@ -143,7 +143,7 @@ struct Vector3D {
     }
     
     func stringValue() -> String {
-        return NSString(format: "(%.2f, %.2f, %.2f)", self.x, self.y, self.z)
+        return NSString(format: "(%.2f, %.2f, %.2f)", self.x, self.y, self.z) as String
     }
     
     func description() -> String {

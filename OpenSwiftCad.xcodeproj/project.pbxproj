@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6B01A3D31AB5960D00DD86A0 /* Line2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B01A3D21AB5960D00DD86A0 /* Line2D.swift */; };
 		6B01A3D51AB5A38000DD86A0 /* OrthoNormalBasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B01A3D41AB5A38000DD86A0 /* OrthoNormalBasis.swift */; };
+		6B216C181AE3A7AC00E04085 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B216C171AE3A7AC00E04085 /* Properties.swift */; };
+		6B216C1A1AE3A85F00E04085 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B216C191AE3A85F00E04085 /* Transformable.swift */; };
 		6B2ECA991AB5D02B0056C947 /* CAG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ECA981AB5D02B0056C947 /* CAG.swift */; };
 		6B2ECA9B1AB5D0C70056C947 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ECA9A1AB5D0C70056C947 /* Side.swift */; };
 		6B2ECA9D1AB5D10C0056C947 /* Vertex2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ECA9C1AB5D10C0056C947 /* Vertex2D.swift */; };
@@ -25,6 +27,8 @@
 		6BA6BC2B1AB4DD4C00546957 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6BC2A1AB4DD4C00546957 /* Plane.swift */; };
 		6BA6BC2D1AB4F2C500546957 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6BC2C1AB4F2C500546957 /* Polygon.swift */; };
 		6BA6BC2F1AB4F2D500546957 /* Line3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6BC2E1AB4F2D500546957 /* Line3D.swift */; };
+		6BC3D9721ABB8AB600908C3A /* FuzzyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC3D9711ABB8AB600908C3A /* FuzzyFactory.swift */; };
+		6BF5599C1ABDC1B500CF8305 /* Path2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5599B1ABDC1B500CF8305 /* Path2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,8 @@
 /* Begin PBXFileReference section */
 		6B01A3D21AB5960D00DD86A0 /* Line2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Line2D.swift; path = CSG/Line2D.swift; sourceTree = "<group>"; };
 		6B01A3D41AB5A38000DD86A0 /* OrthoNormalBasis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrthoNormalBasis.swift; path = CSG/OrthoNormalBasis.swift; sourceTree = "<group>"; };
+		6B216C171AE3A7AC00E04085 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = CSG/Properties.swift; sourceTree = "<group>"; };
+		6B216C191AE3A85F00E04085 /* Transformable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transformable.swift; path = CSG/Transformable.swift; sourceTree = "<group>"; };
 		6B2ECA981AB5D02B0056C947 /* CAG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CAG.swift; path = CSG/CAG.swift; sourceTree = "<group>"; };
 		6B2ECA9A1AB5D0C70056C947 /* Side.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Side.swift; path = CSG/Side.swift; sourceTree = "<group>"; };
 		6B2ECA9C1AB5D10C0056C947 /* Vertex2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vertex2D.swift; path = CSG/Vertex2D.swift; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 		6BA6BC2A1AB4DD4C00546957 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Plane.swift; path = CSG/Plane.swift; sourceTree = "<group>"; };
 		6BA6BC2C1AB4F2C500546957 /* Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Polygon.swift; path = CSG/Polygon.swift; sourceTree = "<group>"; };
 		6BA6BC2E1AB4F2D500546957 /* Line3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Line3D.swift; path = CSG/Line3D.swift; sourceTree = "<group>"; };
+		6BC3D9711ABB8AB600908C3A /* FuzzyFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FuzzyFactory.swift; path = CSG/FuzzyFactory.swift; sourceTree = "<group>"; };
+		6BF5599B1ABDC1B500CF8305 /* Path2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Path2D.swift; path = CSG/Path2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +160,10 @@
 				6B2ECA981AB5D02B0056C947 /* CAG.swift */,
 				6B2ECA9A1AB5D0C70056C947 /* Side.swift */,
 				6B2ECA9C1AB5D10C0056C947 /* Vertex2D.swift */,
+				6BC3D9711ABB8AB600908C3A /* FuzzyFactory.swift */,
+				6BF5599B1ABDC1B500CF8305 /* Path2D.swift */,
+				6B216C171AE3A7AC00E04085 /* Properties.swift */,
+				6B216C191AE3A85F00E04085 /* Transformable.swift */,
 			);
 			name = CSG;
 			sourceTree = "<group>";
@@ -255,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B216C181AE3A7AC00E04085 /* Properties.swift in Sources */,
 				6B2F9A001AB703A50027A801 /* utils.swift in Sources */,
 				6BA6BC2D1AB4F2C500546957 /* Polygon.swift in Sources */,
 				6B01A3D31AB5960D00DD86A0 /* Line2D.swift in Sources */,
@@ -267,9 +280,12 @@
 				6BA6BC231AB4B45500546957 /* Vector2D.swift in Sources */,
 				6BA6BC271AB4D80000546957 /* Vertex.swift in Sources */,
 				6BA6BC1F1AB4B0A400546957 /* CSG.swift in Sources */,
+				6BF5599C1ABDC1B500CF8305 /* Path2D.swift in Sources */,
 				6B01A3D51AB5A38000DD86A0 /* OrthoNormalBasis.swift in Sources */,
+				6BC3D9721ABB8AB600908C3A /* FuzzyFactory.swift in Sources */,
 				6BA6BC2B1AB4DD4C00546957 /* Plane.swift in Sources */,
 				6BA6BC2F1AB4F2D500546957 /* Line3D.swift in Sources */,
+				6B216C1A1AE3A85F00E04085 /* Transformable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

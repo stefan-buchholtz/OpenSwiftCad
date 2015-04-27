@@ -20,6 +20,12 @@ class CSG {
     let isCanonicalized: Bool
     let isRetesselated: Bool
     
+    init() {
+        self.polygons = []
+        self.isCanonicalized = true
+        self.isRetesselated = true
+    }
+    
     init(polygons: [Polygon]) {
         self.polygons = polygons
         self.isCanonicalized = false
