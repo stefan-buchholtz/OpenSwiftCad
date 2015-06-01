@@ -188,4 +188,8 @@ class Polygon {
         }
     }
     
+    func solidFromSlices() -> CSG {
+        
+    }
+    
 }

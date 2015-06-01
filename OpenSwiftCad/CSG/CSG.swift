@@ -32,6 +32,10 @@ class CSG {
         self.isRetesselated = false
     }
     
+    class func fromSlices() -> CSG {
+        
+    }
+    
     class func getTag() -> Int {
         return _Tag++
     }
